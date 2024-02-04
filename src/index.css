@@ -271,29 +271,32 @@ header form {
 
 .container-filters.active {
 	left: 0;
+	background: hwb(134 16% 32%);
 }
 
 .filter-by-type {
 	display: flex;
 	flex-direction: column;
-
+	background: hwb(134 16% 32%);
 	gap: 20px;
 }
 
 .filter-by-type span {
 	font-weight: 700;
 	font-size: 22px;
+	background: hwb(134 16% 32%);
 }
 
 .group-type {
 	display: flex;
 	gap: 10px;
-
+	background: hwb(60 24% 24%);
 	margin-left: 15px;
 }
 
 .group-type label {
 	cursor: pointer;
+	background: hwb(60 24% 24%);
 }
 
 /* 
